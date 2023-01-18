@@ -79,6 +79,6 @@ app.post('/users', (req, res) => {
    res.status(200).end();
 });
 
-function addUser(user){
+function addUser(user) {
    users['users_list'].push(user);
 }
